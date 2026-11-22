@@ -1,0 +1,30 @@
+.PaginaInicial_resumo {
+    display: flex;
+    gap: 8px;
+}
+
+.PaginaInicial_card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--cor-texto-claro);
+}
+
+.PaginaInicial_card strong {
+    font-size: 20px;
+}
+
+.PaginaInicial_sucesso {
+    background-color: var(--cor-sucesso);
+}
+
+.PaginaInicial_total {
+    background-color: black;
+}
+
+.PaginaInicial_falha {
+    background-color: var(--cor-erro);
+}

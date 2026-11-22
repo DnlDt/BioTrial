@@ -1,0 +1,11 @@
+.Cabecalho_root {
+    background-color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+.Cabecalho_titulo {
+    color: var(--cor-texto-claro);
+    font-size: 22px;
+}
